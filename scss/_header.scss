@@ -1,0 +1,19 @@
+header {
+  .separador {
+    height: 50px;
+  }
+}
+
+#header-topo {
+  height: 60px;
+  background-color: $primeira-cor;
+
+
+  a {
+    height: 60px;
+    
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,240 @@
+.jumbotron {
+  width: 100%;
+  background: url('../img/bg-index.jpg') no-repeat center;
+  background-size: cover;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 0;
+  
+  blockquote {
+    background-color: rgba(0,0,0,0.3);  
+
+    p {
+      font-size: 25px;
+
+      @media (min-width: 767px) {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+.img-perfil {
+  background: url('../img/perfil.jpg') no-repeat;
+  background-size: cover;
+  border: 5px solid #FFF;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -20px;
+
+  @media screen and (max-width: 575px) {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+.separador {
+  height: 60px;
+  background-color: #FFF;
+}
+
+.sidebar {
+  margin-top: 4rem;
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+
+    @media screen and (max-width: 991px) {
+      margin-top: 0.5rem;      
+    }
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 260px;
+    text-align: left;
+  }
+}
+
+.container-conteudo {
+  background-color: #FFF;
+  padding-right: 0;
+  padding-left: 0;
+  
+  nav {
+
+    a {
+      font-size: 13px;
+      margin-right: 40px;
+
+      @media screen and (max-width: 991px) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+#icone-bootstrap {
+  width: 110px;
+
+  @media screen and (max-width: 991px) {
+    width: 95px;
+  }
+}
+
+#icone-photoshop {
+  width: 150px;
+
+  @media screen and (max-width: 991px) {
+    width: 110px;
+  }
+}
+
+#icone-jquery {
+  width: 130px;
+
+  @media screen and (max-width: 991px) {
+    width: 110px;
+  }
+}
+
+.fab {
+  font-size: 130px;
+
+  @media screen and (max-width: 991px) {
+    font-size: 100px;
+  }
+}
+
+.fa-html5 {
+  color: #E75930;
+}
+
+.fa-sass {
+  color: #C45891;
+
+  @media screen and (min-width: 991px) {
+    font-size: 115px;
+  }
+}
+
+.fa-js-square {
+  color: #F1D95A;
+}
+
+.fa-php {
+  color: #43407F;
+}
+
+.fa-wordpress {
+  color: #2E6B90;
+}
+
+.fa-angular {
+  color: #D62337;
+}
+
+.fa-gulp {
+  color: #DC3C47;
+}
+
+.fas {
+  font-size: 95px;
+  display: block;
+
+  @media screen and (max-width: 991px) {
+    font-size: 60px;
+  }
+}
+
+.fa-css3-alt {
+  color: #4B8FCE;
+  font-size: 135px;
+
+  @media screen and (max-width: 991px) {
+    font-size: 105px;
+  }
+}
+
+.fa-code {
+  color: #e94c3d;
+}
+
+.fa-robot {
+  color: #4B8FCE;
+}
+
+.fa-book {
+  color: #43407F;
+}
+
+.fa-at {
+  color: #e94c3d;
+}
+
+.fa-mobile-alt {
+  color: #44C14E;
+}
+
+.fa-phone {
+  color: #2E6B90;
+}
+
+.conteudo {
+  h1 {
+    text-transform: uppercase;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    @media screen and (max-width: 991px) {
+      font-size: 22px;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      height: 3px;
+      width: 50px;
+      margin: 5px auto 0 auto;
+      background-color: $primeira-cor;
+    }
+  }
+
+  p {
+    @media screen and (max-width: 991px) {
+      font-size: 18px;
+    }
+  }
+}
+
+#sobre {
+  h2 {
+    font-size: 18px;
+
+    @media screen and (max-width: 991px) {
+      font-size: 16px;
+    }
+
+    &.contato-email {
+      @media screen and (max-width: 576px) {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.hover {
+  background: url("../img/arrow-alt-circle-right-regular.svg") center no-repeat $primeira-cor;
+  background-size: 100px;
+  
+  &:hover {    
+    img {
+      opacity: 0.3;
+      transition: opacity .5s;
+    }
+  }
+}
